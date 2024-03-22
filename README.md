@@ -61,6 +61,7 @@ Users should be able to:
 
 ### JavaScript
 * VueJS
+* Bootstrap
 
 ## Project Setup
 
