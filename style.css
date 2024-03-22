@@ -1,0 +1,59 @@
+/* From template */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+/***/
+
+.hero-banner-image img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.learn-more:hover,
+.learn-more:active {
+    background-color: white !important;
+    color: black !important;
+}
+
+.account button:active {
+    background-color: white !important;
+    color: black !important;
+}
+
+.account button:hover,
+.account button:active {
+    background-color: white !important;
+    color: black !important;
+}
+
+button {
+    border-radius: 12px !important;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.btn-close::after {
+    display: none !important;
+}
+
+#offCanvasBody ul {
+    gap: 0 !important;
+}
+
+#offCanvasBody .account {
+    flex-direction: column;
+    padding-top: 1rem;
+    gap: 0.5rem !important;
+}
+
+
+@media screen and (min-width: 990px) {
+    .hero-banner-text div:first-child {
+        width: 65% !important;
+    }
+
+    .hero-banner-text p {
+        text-align: left !important;
+    }
+}
